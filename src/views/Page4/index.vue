@@ -32,7 +32,7 @@
     <!-- 移动端 -->
     <div v-else class="pmd-outer">
       <!-- 标题 -->
-      <h1 class="hOne">2022-2023区竞赛规则</h1>
+      <h1 class="hOne">2022-2023区竞赛入口</h1>
       <div class="hOne-line"></div>
       <div class="pmd-showContent">
         <span>※该页面手机端无法完整显示</span>

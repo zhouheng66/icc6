@@ -284,7 +284,7 @@
 
           <!-- 圆盘图片 -->
           <div class="pmd-showContent-imgs">
-            <img src="./image/1.png" alt="" />
+            <img class="circle" src="./image/1.png" alt="" />
           </div>
 
           <div class="topT">
@@ -294,7 +294,7 @@
           </div>
 
           <div class="pmd-showContent-imgs">
-            <img src="./image/2.png" alt="" />
+            <img class="square" src="./image/2.png" alt="" />
           </div>
 
           <!-- 了解详情到PC端浏览 -->
@@ -554,6 +554,31 @@ export default {
   }
 }
 
+@keyframes anPhone {
+  from {
+    width: 40%;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes picPhone {
+  from {
+    transform: rotateZ(360deg);
+  }
+  to {
+    transform: rotateZ(0deg);
+}
+}
+@keyframes pic2Phone {
+    from{
+        transform: translateX(600px);
+    }
+    to{
+        transform: translateX(0px);
+
+    }
+}
 // 移动端的样式
 .pmd-outer {
   padding: 0 14px;
@@ -563,6 +588,7 @@ export default {
     font-weight: 700;
     text-align: center;
     margin: 30px 0 20px 0;
+
   }
   // 分割线
   .hOne-line {
@@ -570,6 +596,8 @@ export default {
     height: 2.5px;
     margin: 0 auto;
     background: #ff5a00;
+    animation: anPhone 1s 5 alternate;
+
     // opacity: 0.9;
   }
 
@@ -621,6 +649,12 @@ export default {
         img {
           width: 100%;
           height: 100%;
+        //   circle
+          animation: picPhone  1s ease-in-out 2  ;
+
+        }
+        .square{
+            animation: pic2Phone  1s ease-in-out 2 ;
         }
       }
 

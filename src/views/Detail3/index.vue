@@ -156,7 +156,7 @@ h3 {
 }
 .bigboder {
   margin-top: 15vh;
-  height: 120vh;
+//   height: 120vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -193,7 +193,7 @@ h3 {
     }
   }
   .middle {
-    height: 90%;
+    // height: 90%;
     width: 70%;
     overflow: scroll;
     margin: 0 auto;
@@ -254,6 +254,7 @@ h3 {
       .topH2 {
         display: flex;
         flex-direction: column;
+        margin-bottom: 10px;
         span {
           font-size: 14px;
           font-weight: 700;
@@ -269,10 +270,10 @@ h3 {
       text-align: justify;
       span {
         font-size: 15px;
-        line-height: 4vh;
+        line-height:25px;
         font-family: "微软雅黑";
         font-weight: 300;
-        margin: 1vh 0;
+        // margin: 1vh 0;
         strong {
           color: #07b9f1;
         }

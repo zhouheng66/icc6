@@ -217,6 +217,7 @@ span,div,h1,h2,h3{
   }
   .middle2 {
     width: 100vw !important;
+    
     .middle2-small-title{
         display: block;
        font-family:SimSun;
@@ -226,6 +227,7 @@ span,div,h1,h2,h3{
        text-decoration:none;
        text-align:center;
        line-height: 30px;
+    //    padding-top: 20px;
     }
 
      .top {
@@ -269,6 +271,7 @@ span,div,h1,h2,h3{
     align-items: center;
     padding: 2vw 5vw;
     box-sizing: border-box;
+    margin-top: 30px;
     .top {
       display: flex;
       justify-content: center;

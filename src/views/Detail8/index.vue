@@ -145,7 +145,7 @@ span,div,h1,h2,h3{
 }
 .bigboder {
   margin-top: 15vh;
-  height: 120vh;
+//   height: 120vh;
   width: 100vw;
   display: flex;
   flex-direction: column;

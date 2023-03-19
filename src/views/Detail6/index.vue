@@ -147,7 +147,7 @@ span,div,h1,h2,h3{
 }
 .bigboder {
   margin-top: 15vh;
-  height: 120vh;
+//   height: 120vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -241,7 +241,7 @@ span,div,h1,h2,h3{
 //   }
 
 .middle {
-    height: 90%;
+    // height: 90%;
     width: 70%;
     overflow: scroll;
     margin: 0 auto;
@@ -281,9 +281,9 @@ span,div,h1,h2,h3{
       text-align: justify;
       h2 {
         text-align: center;
-        margin-top: 3vh;
-        line-height: 40px;
-        font-size: 1vw;
+        margin-top: 20px;
+        line-height: 25px;
+        font-size: 16px;
       }
       span {
         font-size: 15px;

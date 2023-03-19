@@ -338,13 +338,13 @@
       <div class="hOne-line"></div>
       <div class="pmd-showContent">
         <!-- 导航栏的导航 -->
-        <ul class="pmd-nav">
-          <li class="current"><span>报名参赛相关</span></li>
-          <li class=""><span>参赛资料相关</span></li>
-          <li class=""><span>其他问题</span></li>
+        <ul class="pmd-nav" >
+          <li v-for="(item,index) in arr" :key="index" :class="{current:active==index}" @click="act(index)"><span>{{ item }}</span></li>
+          <!-- <li :class="{'current':iscurrent}"><span>参赛资料相关</span></li> -->
+          <!-- <li :class="{'current':iscurrent}"><span>其他问题</span></li> -->
         </ul>
         <!-- 导航栏要显示对应的内容 -->
-        <div class="pmd-navShowContent navOne">
+        <div v-show="active==0" class="pmd-navShowContent ">
           <!-- 正文1 -->
           <div class="showLi-one">
             <!-- 每一项内容 -->
@@ -496,6 +496,152 @@
           </div>
         </div>
 
+        <!-- 参赛材料相关 -->
+            <div v-show="active==1" class="pmd-navShowContent ">
+          <!-- 正文1 -->
+          <div class="showLi-one">
+            <!-- 每一项内容 -->
+            <div class="everyContent">
+              <h1 class="main-title">
+                <strong>▌</strong> 所有的作品参赛项目材料都是用中文呈现吗？
+              </h1>
+              <span>
+                参赛团队可以选择中文/英文准备参赛项目材料。若晋级全球邀请赛，则需要用英文呈现。进入全球邀请赛的选手有数周的时间准备英文材料，如有交流障碍也不必担心语言能力，赛会组织方会在交流过程中配备翻译。
+              </span>
+            </div>
+          </div>
+          <!-- 正文2 -->
+          <div class="showLi-one">
+            <!-- 每一项内容 -->
+            <div class="everyContent">
+              <h1 class="main-title"><strong>▌</strong> 选择英文作为评审语言，是否有优势？</h1>
+              <span>
+                ICC竞赛活动的官方评审语言为中文或英文，参赛作品材料、项目路演和答辩均接受中文或英文表达。参赛团队无论选择中文还是英文作为评审语言不会带来额外的优势。
+              </span>
+            </div>
+          </div>
+          <!-- 正文3 -->
+          <div class="showLi-one">
+            <!-- 每一项内容 -->
+            <div class="everyContent">
+              <h1 class="main-title">
+                <strong>▌</strong>发明日志可以写成论文的形式吗？
+              </h1>
+              <span>
+                符合“发明日志”内容和格式要求的参赛材料都是接受的，日志结构不限。官方提供的发明日志模版仅供参考。“发明日志”的内容须包含发现、定义、设计、制作和优化等发明历程。
+              </span>
+            </div>
+          </div>
+          <!-- 正文4 -->
+          <div class="showLi-one">
+            <!-- 每一项内容 -->
+            <div class="everyContent">
+              <h1 class="main-title">
+                <strong>▌</strong> 低年龄学生识字数量有限，可以请家长或老师帮忙填写发明日志吗？
+              </h1>
+              <span>
+                原则上，学生发明日志需要学生自行填写。二年级及以下学生允许用口述方式说明发明过程，请家长或辅导老师协助整理成文字，完成参赛材料。
+              </span>
+            </div>
+          </div>
+          <!-- 正文5 -->
+          <div class="showLi-one">
+            <!-- 每一项内容 -->
+            <div class="everyContent">
+              <h1 class="main-title">
+                <strong>▌</strong> APP或软件产品能否报名参赛？
+              </h1>
+              <span>
+                当然可以。无论是实物发明还是软件发明，只要参赛资料符合ICC竞赛活动规则的参赛要求，都可以报名参赛。ICC期待能在电脑或手机上看到运行的软件Demo。但面对低年级参赛学生，ICC也接受软件流程图。只要流程图能清楚展现软件UI交互界面，运行逻辑，并在路演环节能让评委了解软件运行模式即可。
+              </span>
+            </div>
+          </div>
+          <!-- 正文6 -->
+          <div class="showLi-one">
+            <!-- 每一项内容 -->
+            <div class="everyContent">
+              <h1 class="main-title">
+                <strong>▌</strong> 对现有材料的一种全新应用或组合算是发明吗？
+              </h1>
+              <span>
+                对现有材料的全新应用或组合算是发明。ICC认为，对现有事物的改进，属于学生发明的范畴。在历届比赛中，多项获奖发明就是对材料的全新应用。
+              </span>
+            </div>
+          </div>
+          <!-- 正文7 -->
+          <div class="showLi-one">
+            <!-- 每一项内容 -->
+            <div class="everyContent">
+              <h1 class="main-title">
+                <strong>▌</strong>
+                作品只提供3D设计图，没有3D实物，是否可行？
+              </h1>
+              <span> 可以。项目作品只要能清楚表达设计理念，无论是否有实物均可接受。同时，ICC鼓励学生制作作品的实物模型，在展现学生动手能力的同时，也能便于评委更好的理解学生作品。 </span>
+            </div>
+          </div>
+          <!-- 正文8 -->
+          <div class="showLi-one">
+            <!-- 每一项内容 -->
+            <div class="everyContent">
+              <h1 class="main-title">
+                <strong>▌</strong>
+                路演视频可以添加滤镜，增强光线吗？
+              </h1>
+              <span> 在保证视频画面连贯无剪辑或变速的前提下，参赛选手可以为了提升视频的观看效果而添加滤镜，增强光线或添加字幕。 </span>
+            </div>
+          </div>
+          <!-- 正文9 -->
+          <div class="showLi-one">
+            <!-- 每一项内容 -->
+            <div class="everyContent">
+              <h1 class="main-title">
+                <strong>▌</strong>
+                什么作品才算发明？
+              </h1>
+              <span>
+                发明是以前不存在的新事物。创新是对现有产品或想法的添加或更改。ICC 接受发明作品和创新作品。
+              </span>
+            </div>
+          </div>
+        </div>
+
+          <!-- 其他问题 -->
+          <div v-show="active==2" class="pmd-navShowContent ">
+          <!-- 正文1 -->
+          <div class="showLi-one">
+            <!-- 每一项内容 -->
+            <div class="everyContent">
+              <h1 class="main-title">
+                <strong>▌</strong> 省赛的晋级比例是多少？
+              </h1>
+              <span>
+                各省赛的晋级比例统一为30%。省赛评审分为两个阶段：作品合规审核阶段和评审圈评审阶段。参与省赛评审圈评审的各组别项目综合得分排名前30%的参赛团队将获得晋级资格；未通过作品合规审核的参赛团队不能参加现场评审，不计入晋级比例的统计。
+              </span>
+            </div>
+          </div>
+          <!-- 正文2 -->
+          <div class="showLi-one">
+            <!-- 每一项内容 -->
+            <div class="everyContent">
+              <h1 class="main-title"><strong>▌</strong> 如何确保评审的公正性？</h1>
+              <span>
+                ICC公开面向社会（主要来自学校、行业领军企业、公益组织）进行评委的招募和筛选，并对评委进行统一的规则培训，只有通过考核的评委才能参与ICC各级竞赛活动的评审。在比赛中，评委须回避与其有关系的参赛选手，例如评委不能为本人及近亲属，或者与本人及近亲属有利害关系的项目进行评审。
+              </span>
+            </div>
+          </div>
+          <!-- 正文3 -->
+          <div class="showLi-one">
+            <!-- 每一项内容 -->
+            <div class="everyContent">
+              <h1 class="main-title">
+                <strong>▌</strong>我还有其他问题可以去哪里寻求答案？
+              </h1>
+              <span>
+                可添加官方赛事小助手微信号进行提问。同时微信服务号“全球发明大会中国区”及订阅号“全球发明大会中国区资讯”也将开设菜单专栏，将大家提出的问题收集起来并持续更新解答。
+              </span>
+            </div>
+          </div>
+        </div>
         <!-- 联系我们 -->
         <div class="pmd-connectUs">
           <h1 class="main-title"><strong>▌</strong> 联系我们</h1>
@@ -521,6 +667,7 @@ export default {
       big: true,
       y: 0,
       top: false,
+    //   iscurrent:false
     };
   },
   mounted() {
@@ -543,6 +690,7 @@ export default {
     toTop() {
       window.scrollTo(0, 0);
     },
+
   },
   watch: {
     y() {
