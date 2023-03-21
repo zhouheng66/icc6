@@ -646,7 +646,7 @@
         <div class="pmd-connectUs">
           <h1 class="main-title"><strong>▌</strong> 联系我们</h1>
           <p>
-            如有其他问题，请扫一扫下方二维码，添加ICC官方助手微信号进行询问。
+            如有其他问题，请扫一扫下方二维码，添加ICC安徽官方助手微信号进行询问。
           </p>
           <img src="./image/3.jpg" alt="" />
         </div>
@@ -885,6 +885,16 @@ span,div,h1,h2,h3{
   }
 }
 
+@keyframes an2 {
+  from {
+    width: 40%;
+  }
+  to {
+    width:100%;
+  }
+}
+
+
 // 移动端的样式
 .pmd-outer {
   padding: 0 14px;
@@ -900,6 +910,8 @@ span,div,h1,h2,h3{
     height: 2.5px;
     margin: 0 auto;
     background: #ff5a00;
+    animation: an2 1s 5 alternate;
+
     // opacity: 0.9;
   }
 

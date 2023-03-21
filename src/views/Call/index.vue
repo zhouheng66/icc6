@@ -150,6 +150,10 @@ span,div,h1,h2,h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    .icon{
+        background-color: #fff;
+        border-radius: 50%;
+    }
     span {
       color: white;
       margin-left: 20px;

@@ -236,7 +236,7 @@ body {
 }
 .banner {
   width: 100%;
-  height: 95vh;
+  height: 47vw;
   position: relative;
   .swiper-container ::v-deep .swiper-pagination {
     margin-bottom: 15vh;
@@ -315,10 +315,10 @@ body {
   width: 100%;
   background-color: rgb(204, 204, 204);
   tab-size: 20px;
-  height: 20vh;
+  height: 15vh;
   font-size: 20px;
   text-align: center;
-  line-height: 10vw;
+  line-height: 15vh;
   font-weight: bold;
   z-index: 998;
   font-family: SimSun;

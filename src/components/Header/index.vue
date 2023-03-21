@@ -102,7 +102,7 @@ export default {
   props: ["blue"],
   mounted() {
     let w = window.screen.width;
-    if (w < 800) {
+    if (w < 1200) {
       this.big = false;
     }
     this.nav = false;

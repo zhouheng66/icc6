@@ -166,25 +166,25 @@
         <span> &nbsp; &nbsp;&nbsp;&nbsp; 为积极响应科教兴国战略、党的二十大“必须坚持科技是第一生产力、人才是第一资源、创新是第一动力”的号召，培养年轻一代勇于投身实践，发展自我，成就事业，为中外青少年科技创新交流搭建国际平台，中国友好和平发展基金会将于2023年1月至7月举办“2022-2023年全球发明大会中国区竞赛活动”。</span>
         <span>&nbsp; &nbsp;&nbsp;&nbsp;根据《教育部办公厅关于进一步加强面向中小学生的全国性竞赛活动管理工作的通知》和《教育部办公厅关于公布2022-2025学年面向中小学生的全国性竞赛活动通知》要求，现将本次竞赛活动具体内容通知如下:</span>
       </div>
-
+      
       <!-- 文章模块  -->
-      <!-- 01 -->
-      <div class="pmd-article" >
+      <!-- 01   animate1-remove第一个动画的类名-->
+      <div class="pmd-article a1">
             <div class="pmd-mainTitle"><span> <strong>01</strong> </span> <span class="pmd-mainTitleTwo">One</span></div>
             <div class="pmd-articleDetail">
                 <h1 class="pmd-articleDetailTitle">竞赛宗旨</h1>
             </div>
             <p></p>
-            <span style="line-height: 180%; color: rgb(0, 0, 0); font-size: 18px;
+            <span style="line-height: 25px; color: rgb(0, 0, 0); font-size: 18px;
             font-family:'宋体';">全球发明大会中国区竞赛活动提倡将科学、技术、工程、数学等科学技术素养与创新思维、社会责任意识和发明实践进行结合，激励青少年通过参与从小学到高中阶段的创新发明教育，提升综合素养，为成为具有国际视野和社会责任的创新者、发明者和创业者做好准备。</span>
       </div>
 
       <!-- 02 -->
-      <div class="pmd-article" >
+      <div class="pmd-article animate2-remove " >
             <div class="pmd-mainTitle"><span> <strong>02</strong> </span> <span class="pmd-mainTitleTwo">Two</span></div>
             <div class="pmd-articleDetail">
                 <h1 class="pmd-articleDetailTitle">参与对象</h1>
-                <span><strong>参赛对象为小学、初中、高中、中专和职高学生。根据不同年龄和创新能力的特点，以及职业教育和普通教育的差别，将参赛对象分为五个组别:</strong> </span>
+                <span style="line-height: 25px;"><strong>参赛对象为小学、初中、高中、中专和职高学生。根据不同年龄和创新能力的特点，以及职业教育和普通教育的差别，将参赛对象分为五个组别:</strong> </span>
             </div>
             <p></p>
             <p>G组：一年级到二年级</p>
@@ -193,36 +193,36 @@
             <p>S组：十到十二年级（高中）</p>
             <p>V组：十到十二年级（中专和职高）</p>
             <p></p>
-            <span>以上所有组别的参赛对象可根据本次竞赛主题要求及赛事规则进行个人或团队报名。团队参赛组别由团队中学段最高的队员决定。</span>
+            <span style="line-height: 25px;">以上所有组别的参赛对象可根据本次竞赛主题要求及赛事规则进行个人或团队报名。团队参赛组别由团队中学段最高的队员决定。</span>
       </div>
 
       <!-- 03 -->
-      <div class="pmd-article" >
+      <div class="pmd-article animate3-remove" >
             <div class="pmd-mainTitle"><span> <strong>03</strong> </span> <span class="pmd-mainTitleTwo">Three</span></div>
             <div class="pmd-articleDetail">
                 <h1 class="pmd-articleDetailTitle">活动安排</h1>
                 <span><strong>2023年3月至4月——报名及作品合规检查</strong> </span>  <br><br>
 
                 <!-- 此处使用行内样式  并且用了br在span里面换行 -->
-                <span style="line-height: 100%; color: rgb(0, 0, 0); font-size: 18px;
+                <span style="line-height: 25px; color: rgb(0, 0, 0); font-size: 18px;
             font-family:'宋体';">2023年3月至4月，安徽省组委会设立，并组织全省报名相关事宜，参赛团队需要通过官方微信 公众号“全球发明大会安徽赛区”或官方网站<b>http://www.icc.ah.cn/</b>了解参赛流程，按要求进行报名注册和提交参赛材料。更多信息咨询可以添加组委会服务微信。</span>
             </div>
                 
             <div class="pmd-articleDetail">
                 <span><strong>2023年5月至6月——省级选拔赛</strong> </span>  <br> <br>
-                <span style="line-height: 100%; color: rgb(0, 0, 0); font-size: 18px;
+                <span style="line-height: 25px; color: rgb(0, 0, 0); font-size: 18px;
             font-family:'宋体';">2023年5月至6月，安徽省市组委会根据属地学情，举办线上或线下“全球发明大会中国区安徽 省级竞赛活动”，筛选出进入到全国总决赛的参赛团队。 </span>
             </div>
 
             <div class="pmd-articleDetail">
                 <span><strong>2023年7月——全国总决赛</strong> </span>  <br> <br>
-                <span style="line-height: 100%; color: rgb(0, 0, 0); font-size: 18px;
+                <span style="line-height: 25px; color: rgb(0, 0, 0); font-size: 18px;
             font-family:'宋体';">全球发明大会中国区工作组根据学情，举办线上或线下全球发明大会中国区全国总决赛，鼓励青少年展示项目并选出参加全球发明大会全球邀请赛的项目。同期，配套举办创新发明论坛、公益创新发明分享活动、公益创新发明展等多种形式的活动。</span>
             </div>
 
             <div class="pmd-articleDetail">
                 <span><strong>2023年8月——全球邀请赛</strong> </span>  <br> <br>
-                <span style="line-height: 100%; color: rgb(0, 0, 0); font-size: 18px;
+                <span style="line-height: 25px; color: rgb(0, 0, 0); font-size: 18px;
             font-family:'宋体';">全球发明大会中国区工作组根据学情，举办线上或线下全球发明大会中国区全国总决赛，鼓励青少年展示项目并选出参加全球发明大会全球邀请赛的项目。同期，配套举办创新发明论坛、公益创新发明分享活动、公益创新发明展等多种形式的活动。</span>
             </div>
             <!-- <p></p> -->
@@ -230,30 +230,30 @@
       </div>
 
       <!-- 04 -->
-      <div class="pmd-article" >
+      <div class="pmd-article animate4-remove" >
             <div class="pmd-mainTitle"><span> <strong>04</strong> </span> <span class="pmd-mainTitleTwo">Four</span></div>
             <div class="pmd-articleDetail">
                 <h1 class="pmd-articleDetailTitle">报名方式</h1>
             </div>
-            <span style="line-height: 160%; color: rgb(0, 0, 0); font-size: 17px;">参赛学生通过关注“全球发明大会中国区”官方微信公众号及官方网站获取报名链接和赛事相关文件资料。</span>
+            <span style="line-height: 25px; color: rgb(0, 0, 0); font-size: 17px;">参赛学生通过关注“全球发明大会中国区”官方微信公众号及官方网站获取报名链接和赛事相关文件资料。</span>
       </div>
 
       <!-- 05 -->
-      <div class="pmd-article" >
+      <div class="pmd-article animate5-remove" >
             <div class="pmd-mainTitle"><span> <strong>05</strong> </span> <span class="pmd-mainTitleTwo">Five</span></div>
             <div class="pmd-articleDetail">
                 <h1 class="pmd-articleDetailTitle">竞赛组织与评审</h1>
             </div>
-            <span style="line-height: 160%; color: rgb(0, 0, 0); font-size: 17px;">竞赛活动将围绕科技竞赛体系建设，服务于科技创新人才选拔，在广泛开展创新发明教育普及活动基础上按照不同主题进行，参赛团队请于各省赛组委会公布的报名注册截止日期前，登录“全球发明大会中国区”竞赛服务平台在线提交作品。主承办单位联合设立全球发明大会中国区组委会，并组织成立评审专家组，对参评项目进行评选。</span>
+            <span style="line-height: 25px; color: rgb(0, 0, 0); font-size: 17px;">竞赛活动将围绕科技竞赛体系建设，服务于科技创新人才选拔，在广泛开展创新发明教育普及活动基础上按照不同主题进行，参赛团队请于各省赛组委会公布的报名注册截止日期前，登录“全球发明大会中国区”竞赛服务平台在线提交作品。主承办单位联合设立全球发明大会中国区组委会，并组织成立评审专家组，对参评项目进行评选。</span>
       </div>
 
       <!-- 06 -->
-      <div class="pmd-article" >
+      <div class="pmd-article animate6-remove" >
             <div class="pmd-mainTitle"><span> <strong>06</strong> </span> <span class="pmd-mainTitleTwo">Six</span></div>
             <div class="pmd-articleDetail">
                 <h1 class="pmd-articleDetailTitle">申明</h1>
             </div>
-            <span style="line-height: 160%; color: rgb(0, 0, 0); font-size: 17px;">全球发明大会中国区组委会负责制定、修订、解释竞赛和奖励办法。全球发明大会中国区组委会保留最终解释权与更改权利。</span>
+            <span style="line-height: 25px; color: rgb(0, 0, 0); font-size: 17px;">全球发明大会中国区组委会负责制定、修订、解释竞赛和奖励办法。全球发明大会中国区组委会保留最终解释权与更改权利。</span>
       </div>
     </div>
     <Footer />
@@ -270,20 +270,64 @@ export default {
       top: false,
       y: 0,
       big:true, //判断是pc还是移动端
+      show:false
     };
   },
   mounted() {
     window.scrollTo(0, 0);
     window.addEventListener("scroll", this.handleScrollbox, true);
     let w = window.screen.width;
-    if (w < 800) {
+    console.log(w);
+    if (w < 1200) {
       this.big = false;
     }
   },
   methods: {
     handleScrollbox() {
-      this.currentScroll = window.pageYOffset; //表示当前滚动的位置
-      this.y = window.pageYOffset;
+
+     
+    //   移动端滚动触发
+    //   var scrollT =document.documentElement.scrollTop || document.body.scrollTop;
+      // console.log(this);
+      /*第二页动画的触发*/
+    //   if (this.getTop("animate1-remove") < 900) {
+    //     this.getDom("animate1-remove").classList.add("animated");
+    //     this.getDom("animate1-remove").classList.add("xuanzhuan");
+    //     this.show = true
+    //   }
+
+      if (this.getTop("animate2-remove") < 800) {
+        this.getDom("animate2-remove").classList.add("animated");
+        this.getDom("animate2-remove").classList.add("xuanzhuan");
+      }
+
+      if (this.getTop("animate3-remove") <800) {
+        this.getDom("animate3-remove").classList.add("animated");
+        this.getDom("animate3-remove").classList.add("xuanzhuan");
+      }
+      if (this.getTop("animate4-remove") <800) {
+        this.getDom("animate4-remove").classList.add("animated");
+        this.getDom("animate4-remove").classList.add("xuanzhuan");
+      }
+      if (this.getTop("animate5-remove") <800) {
+        this.getDom("animate5-remove").classList.add("animated");
+        this.getDom("animate5-remove").classList.add("xuanzhuan");
+      }
+      if (this.getTop("animate6-remove") <800) {
+        this.getDom("animate6-remove").classList.add("animated");
+        this.getDom("animate6-remove").classList.add("xuanzhuan");
+      }
+    },
+    // 获取顶部值  看不懂找张强
+    getTop(clsName) {
+      var obj = document.getElementsByClassName(clsName)[0];
+      if (!this.big) {
+        return obj.getBoundingClientRect().top;
+      }
+    },
+    getDom(clsName) {
+      var obj = document.getElementsByClassName(clsName)[0];
+      return obj;
     },
     toTop() {
       window.scrollTo(0, 0);
@@ -299,6 +343,9 @@ export default {
       }
     },
   },
+  beforeDestroy() {
+    window.removeEventListener("scroll", this.handleScrollbox, true);
+  },
 };
 </script>
 
@@ -308,6 +355,35 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
+// 动画样式动态添加
+.animated {
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.xuanzhuan {
+  animation-name: xuanzhuan;
+  -webkit-animation-name: xuanzhuan;
+}
+
+@keyframes xuanzhuan {
+  0% {
+    opacity: 0;
+    transform: translateY(200px);
+    -webkit-transform: translateY(200px);
+  }
+  //   50% {
+  //     opacity: 0.5;
+  //     transform: scale(1.5, 1.5);
+  //     -webkit-transform: scale(1.5, 1.5);
+  //   }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+  }
+}
 span,div,h1,h2,h3{
   cursor: pointer;
 }
@@ -315,7 +391,7 @@ span,div,h1,h2,h3{
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
-  height: auto;
+//   height: auto;
   .runTop {
     position: fixed;
     right: 10px;
@@ -335,9 +411,10 @@ span,div,h1,h2,h3{
   }
 }
 .body {
-  height: 290vh;
+
   width: 100%;
   margin-top: 15vh;
+
   .hOne {
     width: 60%;
     border-bottom: 2px solid #ff5a00;
@@ -489,6 +566,9 @@ span,div,h1,h2,h3{
     }
 
     // 文章样式 每个组的样式 01 
+    .a1{
+        animation: xuanzhuan 1s;
+    }
     .pmd-article{
         margin: 40px 20px;
         font-size: 17px;

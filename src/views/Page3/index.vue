@@ -433,6 +433,7 @@ span,div,h1,h2,h3{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    
     // 每一块卡片的设置
     .pmd-cardsOne{
         width: 200px;
@@ -444,6 +445,8 @@ span,div,h1,h2,h3{
         gap: 10px;
         align-items: center;
         justify-content: center;
+      animation: rotateZ 2s;
+
 
         // 里面图标的设置
         .cardsImg{
